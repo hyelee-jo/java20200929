@@ -11,7 +11,7 @@ public class VariableName {
 		int myCar;
 		int lowerCamelCase;
 		int $a;
-		
+		dddd
 		
 	}
 
