@@ -11,7 +11,13 @@ public class VariableName {
 		int myCar;
 		int lowerCamelCase;
 		int $a;
-		푸쉬해보겠음!!!
+		int _a;
+		int A;
+		int a;
+		int a6;
+		
+//		int public;
+	
 		
 	}
 
