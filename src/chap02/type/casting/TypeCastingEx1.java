@@ -18,9 +18,9 @@ public class TypeCastingEx1 {
 		
 		
 		// 자동 형변환
-		shortValue = byteValue;
-		intValue = shortValue;
-		longValue = intValue;
+		shortValue = byteValue; 
+		intValue = shortValue; 
+		longValue = intValue; 
 		
 		
 		// 강제 형변환s
