@@ -10,6 +10,8 @@ public class DataType {
 		//char : 문자형/정수형
 		//boolean / 논리형
 		
+		
+		
 		//참조타입 (reference type)
 		//무한히...
 	}
