@@ -1,21 +1,19 @@
 package chap04.exercises;
 
 public class Exercise04 {
-	public static void main(String[] args) {
-		int sum=0;
+public static void main(String[] args) {
+		
 		while (true) {
-			int num1 = (int) (Math.random() * 6) + 1;
-			int num2 = (int) (Math.random() * 6) + 1;
-			System.out.println("(" + num1 + " , " + num2 +")");
-			sum = num1 + num2;
-			if (sum == 5) {
-				System.out.println("");
-				
-				System.exit(0);
-					
+			int dice1 = (int) (Math.random() * 6) +1;
+			int dice2 = (int) (Math.random() * 6) +1;
+			
+			System.out.println("(" + dice1 + ", " + dice2 + ")");
+			
+			if ((dice1 + dice2) == 5) {
+				break;
 			}
 		}
-			
 	}
+	
 
 }
