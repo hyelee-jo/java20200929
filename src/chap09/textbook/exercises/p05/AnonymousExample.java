@@ -6,7 +6,11 @@ public class AnonymousExample {
 		anony.field.run();
 		anony.method1();
 		anony.method2(
-				
+			new Vehicle() {
+				public void run() {
+					System.out.println("트럭이 달립니다.");
+				};
+			}
 				
 		);
 
