@@ -207,7 +207,53 @@ public class String1 {
 		return a.substring(lena - min) + b.substring(lenb - min);
 	}
 	
-	
+	public String extraFront(String str) {
+		if (str.length() > 2) {
+			String front = str.substring(0, 2);
+
+			return front + front + front;
+
+		} else {
+			return str + str + str;
+		}
+
+	}
+
+	public String without2(String str) {
+		int len = str.length();
+
+		if (len >= 2) {
+			String front = str.substring(0, 2);
+			String end = str.substring(len - 2);
+
+			if (front.equals(end)) {
+				return str.substring(2);
+			}
+		}
+		return str;
+
+	}
+
+	public String deFront(String str) {
+		String res = "";
+
+		for (int i = 0; i < str.length(); i++) {
+			if (i == 0 && str.charAt(i) == 'a') {
+				res += str.charAt(i);
+			}
+
+			if (i == 1 && str.charAt(i) == 'b') {
+				res += str.charAt(i);
+			}
+
+			if (i >= 2) {
+				res += str.charAt(i);
+			}
+		}
+
+		return res;
+	}
+
 	
 	
 	
